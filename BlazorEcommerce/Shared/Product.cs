@@ -15,5 +15,8 @@ namespace BlazorEcommerce.Shared
         public string ImageURL { get; set; } = string.Empty;
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+
+        public Category? Category { get; set; } // adding foreign key for category
+        public int CategoryId { get; set; }
     }
 }
