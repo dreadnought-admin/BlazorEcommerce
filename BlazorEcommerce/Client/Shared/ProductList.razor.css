@@ -1,7 +1,7 @@
 ﻿.media-img {
     max-height: 200px;
     max-width: 200px;
-    border-radius: 6px;
+    border-radius: 15px;
     margin-bottom: 10px;
     transition: transform .2s;
 }
@@ -21,7 +21,9 @@
 }
 
 .media-body {
+    margin-left: 25px;
     flex: 1;
+    color: #eaf0d8;
 }
 
 @media (max-width: 1023.98px) {
